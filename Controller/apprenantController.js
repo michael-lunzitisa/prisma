@@ -1,4 +1,3 @@
-import e from "express";
 import prisma from "../DB/db.config";
 
 export const createApprenant = async (req, res) => {

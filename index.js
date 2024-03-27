@@ -8,6 +8,7 @@ app.get("/", (req, res) => {
 });
 
 import routes from "./routes/index";
+
 app.use(routes);
 app.listen(3000, () => {
     console.log("Serveur Express en écoute sur le port 3000");
